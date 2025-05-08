@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.arunabhdas.speer"
+    namespace = "com.arunabhdas.calcutta"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.arunabhdas.speer"
+        applicationId = "com.arunabhdas.calcutta"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
