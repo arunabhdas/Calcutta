@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Speer"
 include(":app")
- 
+include(":calcuttaui")
