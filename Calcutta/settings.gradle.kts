@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Speer"
+rootProject.name = "Calcutta"
 include(":app")
 include(":calcuttaui")
