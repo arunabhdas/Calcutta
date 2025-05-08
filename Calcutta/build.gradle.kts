@@ -6,10 +6,7 @@ buildscript {
         google()
     }
     dependencies {
-        // Keep these for backward compatibility with any plugins that might need them
-        classpath("com.android.tools.build:gradle:${libs.versions.agp.get()}")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${libs.versions.kotlin.get()}")
-        classpath("org.jetbrains.kotlin:kotlin-serialization:${libs.versions.kotlin.get()}")
+        // Remove redundant classpath declarations that conflict with plugins block
     }
 }
 
