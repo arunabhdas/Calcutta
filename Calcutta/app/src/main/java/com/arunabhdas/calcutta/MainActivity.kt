@@ -13,6 +13,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import com.arunabhdas.calcutta.ui.screens.Navigation
+import com.arunabhdas.calcutta.ui.theme.CalcuttaTheme
 
 class MainActivity : ComponentActivity() {
     lateinit var navHostController: NavHostController
