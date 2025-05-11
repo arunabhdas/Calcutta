@@ -45,7 +45,6 @@ import com.arunabhdas.calcutta.ui.composables.ErrorType
 import com.arunabhdas.calcutta.ui.theme.ThemeUtils
 import com.arunabhdas.calcutta.ui.theme.TransparentColor
 import com.arunabhdas.calcutta.ui.theme.createGradientEffect
-import com.arunabhdas.calcutta.ui.composables.UserInfoCard
 import com.arunabhdas.calcutta.ui.composables.NotFoundCard
 
 @OptIn(ExperimentalMaterial3Api::class)
