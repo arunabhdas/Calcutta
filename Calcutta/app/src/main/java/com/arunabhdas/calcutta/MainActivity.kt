@@ -13,14 +13,13 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import com.arunabhdas.calcutta.ui.screens.Navigation
-import com.arunabhdas.calcutta.ui.theme.SpeerTheme
 
 class MainActivity : ComponentActivity() {
     lateinit var navHostController: NavHostController
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            SpeerTheme {
+            CalcuttaTheme {
                 val snackbarHostState = remember {
                     SnackbarHostState()
                 }
