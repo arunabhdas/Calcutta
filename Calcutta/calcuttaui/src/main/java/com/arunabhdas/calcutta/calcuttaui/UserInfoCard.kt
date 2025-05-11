@@ -1,4 +1,4 @@
-package com.arunabhdas.calcutta.ui.composables
+package com.arunabhdas.calcutta.calcuttaui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
